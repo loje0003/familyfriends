@@ -5,7 +5,7 @@ import { GoPerson } from "react-icons/go";
 
 const Footer = () => {
   return (
-    <div className="flex justify-between p-4 bg-gray-50 px-12">
+    <div className="flex justify-between p-4 bg-gray-50 px-12 fixed bottom-0 w-full">
       <IoHomeOutline size={24} />
       <FaRegStar size={24} />
       <BsChat size={24} />
