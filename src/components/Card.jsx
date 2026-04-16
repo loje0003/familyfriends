@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Favorit from "./Favorit";
+import FavoriteElement from "./FavoriteElement";
 import Link from "next/link";
 
 const Card = ({ id, breedGroup, origin, image }) => {
@@ -10,7 +10,7 @@ const Card = ({ id, breedGroup, origin, image }) => {
           <Image src={image} alt="Picture of the animal" width={300} height={200} className="rounded-xl object-cover" />
         </Link>
         <div className="absolute top-3 right-3 bg-white/40 backdrop-blur-md p-2 rounded-full">
-          <Favorit />
+          <FavoriteElement />
         </div>
       </div>
       <div className="p-4">
